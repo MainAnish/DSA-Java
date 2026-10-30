@@ -1,0 +1,28 @@
+Create BankAccount class that has the following instance variables and methods:
+Instance variables:
+    accountNumber
+    name
+    balance
+    final variable: minBalance
+Private method:
+    checkMinBalance(amount) - returns false if balance - amount <= minBalance else returns true
+
+Public methods:
+
+    balance( ) - prints the balance
+    deposit(amount) - updates balance = balance + amount
+    withdraw(amount) - calls the checkMinBalance(amount) method,
+    if it returns true update balance = balance - amount else prints Transaction failed
+
+
+Input
+copy
+maximize
+1000
+2000
+Expected Output
+copy
+maximize
+2000
+Transaction failed
+2000

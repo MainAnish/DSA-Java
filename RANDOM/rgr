@@ -1,0 +1,10 @@
+Create an abstract class StringOperations that has the following abstract methods:
+    String reverse(String s)
+    int vowelCount(String s)
+
+Create StringReverse class that extends StringOperations class but defines only String reverse(String s) method. 
+It reverses the string which is passed as parameter and returns the reversed string.
+Create UpdatedStrings class that extends StringReverse class and defines int vowelCount(String s) method. 
+ It counts the vowels in the string which is passed as parameter and returns the count.
+
+ string reverse 
